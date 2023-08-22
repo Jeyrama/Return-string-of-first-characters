@@ -17,3 +17,13 @@ function makeString(s){
 }
 
 // or
+
+function makeString(s){
+  let arr_words = s.split(" ");
+  let result = "";
+  for (let i=0; i<arr_words.length; i++) {
+    let first_letter = arr_words[i].charAt(0);
+    result += first_letter;
+  }
+  return result;
+}
