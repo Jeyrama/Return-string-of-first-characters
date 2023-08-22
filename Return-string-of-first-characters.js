@@ -11,3 +11,7 @@ and no leading/trailing spaces.
 
 
 // Solution
+
+function makeString(s){
+  return (s.match(/\b\w/g)).join('');
+}
