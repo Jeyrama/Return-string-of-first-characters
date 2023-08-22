@@ -15,3 +15,5 @@ and no leading/trailing spaces.
 function makeString(s){
   return (s.match(/\b\w/g)).join('');
 }
+
+// or
